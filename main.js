@@ -159,7 +159,7 @@ function car2_down(){
 
 function car2_left(){
 
-    if(car_x >= 0){
+    if(car2_x >= 0){
         car2_x=car2_x-10;
         console.log("when up arrow is pressed,x = "+car2_x+" y = "+car2_y);
         uploadBackground();
